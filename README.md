@@ -9,30 +9,31 @@ A short description of each lab is given below:
 
 ### lab1
 
-Debug and fix an existing program
+Debug and fix an existing program.
 
 ### lab2
 
-Build a parser for what would eventually become a program which simulates a breadboard and solves for voltages at every node
+Build a parser for what would eventually become a program which simulates a breadboard and solves for voltages at every node.
 
 ### lab3 
 
-Still working on it.
+Simulate a network of resistor over nodes using two dynamically allocated arrays.
 
 ### lab4
 
-Still working on it.
+Simulate the network using linked lists and solve for voltage at every node in the network.
 
 ### lab5
 
-Still working on it.
+Use binary trees to store a database.
 
 ### lab6
 
-Still working on it.
+Use EasyGL to create a "drawing board". User can specify shapes and move them on screen by clicking and dragging.
 
 ### lab7
 
-Still working on it.
+Use EasyGL to visually represent the network that a user creates. (Basically lab4 but with visuals).
+
 
 A word of advise for ECE 1T9's and beyond looking at this repository, it's great if you want to look at other people's code to expose yourself to different approaches to problem solving, but don't indulge in cargo cult programming.
