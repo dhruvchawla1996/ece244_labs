@@ -1,0 +1,35 @@
+insertR R0 100 3 4
+insertR R1 200 4 3
+printR R0
+printR R1
+printNode 3
+printNode 4
+modifyR Ro 150
+modifyR R0 150
+printR R0
+printNode 3
+deleteR R
+deleteR R1
+printR R1
+printNode 4
+printNode 3
+insertR R2 1200 5 6
+insertR R3 1000 4 8
+printNode all
+setV 4 3.20
+setV 9 3.00
+printNode 9
+deleteR all
+printNode all
+unsetV 9
+printNode all
+unsetV 4
+solve
+insertR R0 100 2 3
+setV 2 3.333
+solve
+unsetV 10
+insertR R1 100 3 4
+solve
+setV 4 0
+solve

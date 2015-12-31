@@ -1,0 +1,10 @@
+called: g++
+	/u/c/chawlad1/ece244/lab1_release/lab1/convert
+	g++
+	-Wall
+	-O0
+	-g
+	convert.cpp
+	-o
+	convert
+

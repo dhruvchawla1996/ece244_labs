@@ -1,0 +1,32 @@
+insert www.google.com 283983 active
+find www.google.com
+insert www.eecg.utoronto.ca 179333 inactive
+find www.eecg.utoronto.ca
+insert www.google.com 282222 inactive
+find www.yahoo.com
+updatestatus www.google.com inactive
+find www.google.com
+insert www.yahoo.com 191333 active
+insert www.altera.com 283299 active
+find www.altera.com
+find www.yahoo.com
+find www.apple.com
+printall
+printprobes www.altera.com
+printprobes www.eecg.utoronto.ca
+printprobes www.google.com
+printprobes www.reddit.com
+remove www.eecg.utoronto.ca
+find www.eecg.utoronto.ca
+countactive
+printall
+insert www.eecg.utoronto.ca inactive
+printprobes www.eecg.utoronto.ca
+removeall
+find www.google.com
+printall
+remove www.google.com
+printprobes www.google.com
+countactive
+removeall
+updatestatus www.google.com active

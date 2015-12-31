@@ -1,0 +1,34 @@
+gcc -c -g -Wall  main.c
+gcc -c -g -Wall  util.c
+gcc -c -g -Wall  read_netlist.c
+gcc -c -g -Wall  print_netlist.c
+gcc -c -g -Wall  check_netlist.c
+gcc -c -g -Wall  read_arch.c
+gcc -c -g -Wall  place_and_route.c
+gcc -c -g -Wall  place.c
+gcc -c -g -Wall  route_common.c
+gcc -c -g -Wall  route_timing.c
+gcc -c -g -Wall  route_tree_timing.c
+gcc -c -g -Wall  route_breadth_first.c
+gcc -c -g -Wall  draw.c
+gcc -c -g -Wall  -I/usr/openwin/include graphics.c
+gcc -c -g -Wall  stats.c
+gcc -c -g -Wall  segment_stats.c
+gcc -c -g -Wall  rr_graph.c
+gcc -c -g -Wall  rr_graph2.c
+gcc -c -g -Wall  rr_graph_sbox.c
+gcc -c -g -Wall  rr_graph_util.c
+gcc -c -g -Wall  rr_graph_timing_params.c
+gcc -c -g -Wall  rr_graph_indexed_data.c
+gcc -c -g -Wall  rr_graph_area.c
+gcc -c -g -Wall  check_rr_graph.c
+gcc -c -g -Wall  check_route.c
+gcc -c -g -Wall  hash.c
+gcc -c -g -Wall  heapsort.c
+gcc -c -g -Wall  read_place.c
+gcc -c -g -Wall  net_delay.c
+gcc -c -g -Wall  path_delay.c
+gcc -c -g -Wall  path_delay2.c
+gcc -c -g -Wall  vpr_utils.c
+gcc -c -Wall  -Wredundant-decls test_h.c
+gcc -g -Wall  main.o util.o read_netlist.o print_netlist.o check_netlist.o read_arch.o place_and_route.o place.o route_common.o route_timing.o route_tree_timing.o route_breadth_first.o draw.o graphics.o stats.o segment_stats.o rr_graph.o rr_graph2.o rr_graph_sbox.o rr_graph_util.o rr_graph_timing_params.o rr_graph_indexed_data.o rr_graph_area.o check_rr_graph.o check_route.o hash.o heapsort.o read_place.o net_delay.o path_delay.o path_delay2.o vpr_utils.o -o vpr  -lX11 -lm

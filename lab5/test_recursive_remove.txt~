@@ -1,0 +1,14 @@
+insert www.z.com inactive
+insert www.zz.com inactive
+insert www.s.com inactive
+insert www.r.com inactive
+insert www.v.com inactive
+insert www.u.com inactive
+countactive
+printall
+printprobes www.u.com
+printprobes www.v.com
+remove www.z.com
+printall
+printprobes www.u.com
+printprobes www.v.com

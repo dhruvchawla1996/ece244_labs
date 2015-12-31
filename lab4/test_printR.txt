@@ -1,0 +1,11 @@
+insertR R1 100 6 5
+insertR R2 100 5 2
+insertR R3 200 5 3
+insertR R4 150 2 3
+insertR R5 120 3 4
+printR R1
+printR R2
+printR R3
+printR R4
+printR R5
+printNode all
