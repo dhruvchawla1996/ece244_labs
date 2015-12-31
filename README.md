@@ -35,5 +35,6 @@ Use EasyGL to create a "drawing board". User can specify shapes and move them on
 
 Use EasyGL to visually represent the network that a user creates. (Basically lab4 but with visuals).
 
+<br>
 
 A word of advise for ECE 1T9's and beyond looking at this repository, it's great if you want to look at other people's code to expose yourself to different approaches to problem solving, but don't indulge in cargo cult programming.
